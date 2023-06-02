@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Телефони</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="page page-dark">
+        <div class="wrapper">
+            <header class="header">
+                <img class="burger" src="img/free-icon-menu-2976215 (1) 3.png" alt="Burger">
+                <div class="burger-menu">
+                    <nav>
+                        <ul class="burger-nav">
+                            <li class="burnav-menu"><a class="burnav-link" href="#">Телефони</a></li>
+                            <li class="burnav-menu"><a class="burnav-link" href="">Аксесуари</a></li>
+                            <li class="burnav-menu"><a class="burnav-link" href="">Сервіс</a></li>
+                            <li class="burnav-item"><a class="burnav-link" href="about_us.html">Про нас</a></li>
+                            <li class="burnav-item"><a class="burnav-link" href="contacts.html">Контакти</a></li>
+                            <li class="burnav-item"><a class="burnav-link" href="payment_delivery.html">Оплата та доставка</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <a href="index.html"><img class="logo-img" src="img/Логотип.svg" alt="Логотип"></a>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="about_us.html">Про нас</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacts.html">Контакти</a></li>
+                        <li class="nav-item"><a class="nav-link" href="payment_delivery.html">Оплата та доставка</a></li>
+                    </ul>
+                </nav>
+                <div class="contact">
+                    <p class="contact-phone">+380ххххххххх</p><br>
+                    <p>Пн-Нд: 09:00-20:00</p>
+                </div>
+                <nav>
+                    <li class="bask"><a class="bask-link" href="basket.html"><img class="bask-img" src="img/Кошик.svg" width="40" height="40" alt="Корзина"></a></li>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <div class="page page-grey">
+        <div class="wrapper">
+            <div class="menu">
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-menu"><a class="nav-mlink" href="#">Телефони</a></li>
+                        <li class="nav-menu"><a class="nav-mlink" href="">Аксесуари</a></li>
+                        <li class="nav-menu"><a class="nav-mlink" href="">Сервіс</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="title">
+            <h1 class="title-text">Оформлення замовлення</h1>
+        </div>
+    </div>
+    <div class="container_ord">
+        <div class="wrapper">
+            <div class="reg">
+                <h2 class="reg-title">Контактна інформація</h2>
+                <div class="reg-line">
+                    <input class="reg-line-input" type="text" id="name" name="name" required placeholder="* Ім'я та прізвище" style="padding-left: 10px;">
+                </div>
+                <div class="reg-line">
+                    <input class="reg-line-input" type="text" id="phone" name="phone" required placeholder="* Ваш номер телефону" style="padding-left: 10px;">
+                </div>
+                <div class="reg-line">
+                    <input class="reg-line-input" type="text" id="email" name="email" placeholder="Електронна пошта" style="padding-left: 10px;">
+                </div>
+                <div class="reg-telegram">
+                    <input class="reg-telegram-check" type="checkbox" id="telegram-contact" name="telegram_contact">
+                    <label class="reg-telegram-text" for="telegram-contact">Зв'яжіться зі мною в Telegram</label>
+                </div>
+            </div>
+            <div class="reg">
+                <h2 class="reg-title">Доставка та оплата</h2>
+                <div class="reg-line">
+                    <select class="reg-line-choice" name="delivery" id="delivery" required>
+                        <option class="reg-line-choice-item" value="" disabled selected hidden>* Оберіть спосіб доставки </option>
+                        <option class="reg-line-choice-item" value="самовивіз">Самовивіз</option>
+                        <option class="reg-line-choice-item" value="Нова Пошта">Нова Пошта</option>
+                        <option class="reg-line-choice-item" value="Укрпошта">Укрпошта</option>
+                    </select>
+                </div>
+                <div class="reg-line">
+                    <input class="reg-line-input" type="text" name="city" required placeholder="* Оберіть місто" style="padding-left: 10px;">
+                </div>
+                <div claa="reg-line">
+                    <select class="reg-line-choice" name="number" id="number" required>
+                        <option class="reg-line-choice-item" value="" disabled selected hidden>* Оберіть відділення</option>
+                        <option class="reg-line-choice-item" value="11">11</option>
+                        <option class="reg-line-choice-item" value="12">12</option>
+                        <option class="reg-line-choice-item" value="13">13</option>
+                    </select>
+                </div>
+                <div class="reg-line">
+                    <select class="reg-line-choice" name="payment" id="payment" required>
+                        <option class="reg-line-choice-item" value="" disabled selected hidden>* Оберіть спосіб оплати</option>
+                        <option class="reg-line-choice-item" value="Карта">Переказ на карту</option>
+                        <option class="reg-line-choice-item" value="Готівка">Готівкою</option>
+                    </select>
+                </div>
+                <div class="reg-comment">
+                    <textarea class="reg-comment-area" name="comment" rows="4" cols="42" maxlength="200" placeholder="Додайте коментар (за бажанням)"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="final_order">
+                <h2 class="final_order-title">Ваше замовлення</h2>
+                <div class="final_order-prod">
+                    <img class="final_order-prod-img" src="img/11 про.png" alt="11">
+                    <p class="final_order-prod-info">Iphone 11 256 ГБ<br>(Purple)</p>
+                    <p class="final_order-prod-price">31 500 грн</p>
+                    <img class="final_order-prod-cross" src="img/Червоний хрестик.svg" alt="Хрестик">
+                </div>
+                <div class="final_order-sum">
+                    <p class="final_order-sum-text">Сума вашого замовлення: </p>
+                    <p class="final_order-sum-price">31 500 грн</p>
+                </div>
+                <div class="final_order-button">
+                    <a class="final_order-button-a" href="">
+                        <p class="final_order-button-text">Оформити замовлення</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page page-dark">
+        <div class="wrapper">
+            <footer class="footer">
+                <div class="links">
+                    <div class="column">
+                        <h3 class="column-title">Важлива інформація</h3>
+                        <nav>
+                            <ul class="column-nav">
+                                <li class="column-nav-item"><a class="column-nav-link" href="">Про нас</a></li>
+                                <li class="column-nav-item"><a class="column-nav-link" href="">Контакти</a></li>
+                                <li class="column-nav-item"><a class="column-nav-link" href="">Оплата та доставка</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="column">
+                        <h3 class="column-title">Каталог</h3>
+                        <nav>
+                            <ul class="column-nav">
+                                <li class="column-nav-item"><a class="column-nav-link" href="">Телефони</a></li>
+                                <li class="column-nav-item"><a class="column-nav-link" href="">Аксесуари</a></li>
+                                <li class="column-nav-item"><a class="column-nav-link" href="">Сервіс</a></li>
+                            </ul>
+                        </nav>
+                    </div> 
+                    <div class="column">
+                        <h3 class="column-title">Контакти</h3>
+                        <nav>
+                            <ul class="column-nav">
+                                <li class="column-nav-item"><a class="column-nav-link" href="">+380ххххххххх</a></li>
+                                <li class="column-nav-item"><a class="column-nav-link" href="">istart@gmail.com</a></li>
+                                <li class="column-nav-item"><a class="column-nav-link" href="">м. Кременчук, вул. Шевченка 0</a></li>
+                            </ul>
+                        </nav>
+                    </div>                    
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
